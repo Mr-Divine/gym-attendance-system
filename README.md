@@ -8,6 +8,15 @@ This system is designed to manage member attendance, access control, locker assi
 
 All data is stored locally on SQL Server 2014, and the application requires a valid license to operate.
 
+🏗 Technology Stack
+| Layer              | Technology               |
+| ------------------ | ------------------------ |
+| UI                 | WPF (.NET)               |
+| Database           | SQL Server 2014          |
+| Reporting          | DevExpress               |
+| Device Integration | TCP communication        |
+| Licensing          | Online activation system |
+
 🚀 Key Features
 🔐 Access & Attendance
 
@@ -67,13 +76,7 @@ Application requires an active license
 
 Online verification system checks and validates license status
 
-🏗 Technology Stack
-Layer	Technology
-UI	WPF (.NET)
-Database	SQL Server 2014
-Reporting	DevExpress
-Device Integration	TCP communication
-Licensing	Online activation system
+
 📡 Supported Hardware
 
 ✔ Face Recognition Terminals
@@ -97,3 +100,7 @@ Locker usage & reservations
 
 This software is not free.
 A valid license must be purchased and activated before use.
+
+📬 Contact
+
+For licensing, support, or integration services, please contact the developer.
