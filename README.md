@@ -108,4 +108,11 @@ Locker usage & reservations
 This software is not free.
 A valid license must be purchased and activated before use.
 
+------------------
+### 🖼 Sample Screenshots
+
+### The images below are provided only as a visual preview of the application's interface.  
+### They do not represent the full functionality or the commercial release of the system.
+
+------------------
 
