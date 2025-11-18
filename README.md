@@ -1,13 +1,13 @@
 Gym Attendance System
 
 A complete offline WPF-based gym attendance & access control system with licensing, device integration, and full financial/member tracking features.
-
+------------------
 📌 Overview
 
 This system is designed to manage member attendance, access control, locker assignments, coach management, and financial tracking for gyms and fitness clubs.
 
 All data is stored locally on SQL Server 2014, and the application requires a valid license to operate.
-
+------------------
 🏗 Technology Stack
 | Layer              | Technology               |
 | ------------------ | ------------------------ |
@@ -17,7 +17,9 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 | Device Integration | TCP communication        |
 | Licensing          | Online activation system |
 
+------------------
 🚀 Key Features
+
 🔐 Access & Attendance
 
 Connects to Face ID, Fingerprint scanners, and RFID Readers via TCP
@@ -76,7 +78,7 @@ Application requires an active license
 
 Online verification system checks and validates license status
 
-
+------------------
 📡 Supported Hardware
 
 ✔ Face Recognition Terminals
@@ -84,6 +86,7 @@ Online verification system checks and validates license status
 ✔ RFID Card Readers
 (All connected via TCP)
 
+------------------
 📊 Reports Included
 
 Total payments received
