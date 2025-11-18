@@ -24,9 +24,9 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 
 🔐 Access & Attendance
 
-.Connects to Face ID, Fingerprint scanners, and RFID Readers via TCP
+-Connects to Face ID, Fingerprint scanners, and RFID Readers via TCP
 
-.Shows live check-in / check-out activity
+*Shows live check-in / check-out activity
 
 .Automatically stores attendance logs per member
 
