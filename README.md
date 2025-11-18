@@ -1,16 +1,16 @@
-Gym Attendance System
+### Gym Attendance System
 
 A complete offline WPF-based gym attendance & access control system with licensing, device integration, and full financial/member tracking features.
 
 ------------------
-📌 Overview
+### 📌 Overview
 
 This system is designed to manage member attendance, access control, locker assignments, coach management, and financial tracking for gyms and fitness clubs.
 
 All data is stored locally on SQL Server 2014, and the application requires a valid license to operate.
 
 ------------------
-🏗 Technology Stack
+### 🏗 Technology Stack
 | Layer              | Technology               |
 | ------------------ | ------------------------ |
 | UI                 | WPF (.NET)               |
@@ -20,68 +20,68 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 | Licensing          | Online activation system |
 
 ------------------
-🚀 Key Features
+### 🚀 Key Features
 
-🔐 Access & Attendance
+### 🔐 Access & Attendance
 
 - Connects to Face ID, Fingerprint scanners, and RFID Readers via TCP
 
-* Shows live check-in / check-out activity
+- Shows live check-in / check-out activity
 
-.Automatically stores attendance logs per member
+- Automatically stores attendance logs per member
 
-🧑‍🤝‍🧑 Member Management
+### 🧑‍🤝‍🧑 Member Management
 
-.Full member registration with profile and subscription tracking
+- Full member registration with profile and subscription tracking
 
-.Records membership payments and expiration dates
+- Records membership payments and expiration dates
 
-.Auto locker assignment on entry
+- Auto locker assignment on entry
 
-.Locker is automatically released after check-out
+- Locker is automatically released after check-out
 
-.Lockers can be reserved manually for members or coaches
+- Lockers can be reserved manually for members or coaches
 
-🏋️‍♂️ Coach Management
+### 🏋️‍♂️ Coach Management
 
-.Coaches can be registered like members
+- Coaches can be registered like members
 
-.Assign training programs and track student lists
+- Assign training programs and track student lists
 
-.Coaches receive recorded payments based on planned sessions
+- Coaches receive recorded payments based on planned sessions
 
-.Coaches can also receive lockers
+- Coaches can also receive lockers
 
-💰 Financial & Reports
+### 💰 Financial & Reports
 
-.Financial reporting of total income and refunds
+- Financial reporting of total income and refunds
 
-.Dedicated coach payments report
+- Dedicated coach payments report
 
-.Full attendance history
+- Full attendance history
 
-.Reports built using DevExpress
+- Reports built using DevExpress
 
-🗄 Storage & Architecture
+### 🗄 Storage & Architecture
 
-.Offline mode
+- Offline mode
 
-.Database: SQL Server 2014
+- Database: SQL Server 2014
 
-.UI Framework: WPF (.NET)
+- UI Framework: WPF (.NET)
 
-.Reporting: DevExpress
+- Reporting: DevExpress
 
-.Device Communication: TCP sockets
+- Device Communication: TCP sockets
 
-🔑 Licensing
+### 🔑 Licensing
 
-.Application requires an active license
+- Application requires an active license
 
-.Online verification system checks and validates license status
+- Online verification system checks and validates license status
 
 ------------------
-📡 Supported Hardware
+### 📡 Supported Hardware
 
 ✔ Face Recognition Terminals
 ✔ Fingerprint Readers
@@ -89,7 +89,7 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 (All connected via TCP)
 
 ------------------
-📊 Reports Included
+### 📊 Reports Included
 
 Total payments received
 
@@ -103,7 +103,7 @@ Locker usage & reservations
 
 ------------------
 
-📝 License
+### 📝 License
 
 This software is not free.
 A valid license must be purchased and activated before use.
