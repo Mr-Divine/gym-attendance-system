@@ -1,16 +1,16 @@
-### Gym Attendance System
+## Gym Attendance System
 
 A complete offline WPF-based gym attendance & access control system with licensing, device integration, and full financial/member tracking features.
 
-------------------
-### 📌 Overview
+
+## 📌 Overview
 
 This system is designed to manage member attendance, access control, locker assignments, coach management, and financial tracking for gyms and fitness clubs.
 
 All data is stored locally on SQL Server 2014, and the application requires a valid license to operate.
 
 ------------------
-### 🏗 Technology Stack
+## 🏗 Technology Stack
 | Layer              | Technology               |
 | ------------------ | ------------------------ |
 | UI                 | WPF (.NET)               |
@@ -20,9 +20,9 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 | Licensing          | Online activation system |
 
 ------------------
-### 🚀 Key Features
+## 🚀 Key Features
 
-### 🔐 Access & Attendance
+# 🔐 Access & Attendance
 
 - Connects to Face ID, Fingerprint scanners, and RFID Readers via TCP
 
@@ -30,7 +30,7 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 
 - Automatically stores attendance logs per member
 
-### 🧑‍🤝‍🧑 Member Management
+# 🧑‍🤝‍🧑 Member Management
 
 - Full member registration with profile and subscription tracking
 
@@ -42,7 +42,7 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 
 - Lockers can be reserved manually for members or coaches
 
-### 🏋️‍♂️ Coach Management
+# 🏋️‍♂️ Coach Management
 
 - Coaches can be registered like members
 
@@ -52,7 +52,7 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 
 - Coaches can also receive lockers
 
-### 💰 Financial & Reports
+# 💰 Financial & Reports
 
 - Financial reporting of total income and refunds
 
@@ -62,7 +62,7 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 
 - Reports built using DevExpress
 
-### 🗄 Storage & Architecture
+# 🗄 Storage & Architecture
 
 - Offline mode
 
@@ -74,22 +74,22 @@ All data is stored locally on SQL Server 2014, and the application requires a va
 
 - Device Communication: TCP sockets
 
-### 🔑 Licensing
+# 🔑 Licensing
 
 - Application requires an active license
 
 - Online verification system checks and validates license status
 
-------------------
-### 📡 Supported Hardware
+
+## 📡 Supported Hardware
 
 ✔ Face Recognition Terminals
 ✔ Fingerprint Readers
 ✔ RFID Card Readers
 (All connected via TCP)
 
-------------------
-### 📊 Reports Included
+
+## 📊 Reports Included
 
 Total payments received
 
@@ -101,15 +101,15 @@ Coach → students overview
 
 Locker usage & reservations
 
-------------------
 
-### 📝 License
+
+## 📝 License
 
 This software is not free.
 A valid license must be purchased and activated before use.
 
-------------------
-### 🖼 Sample Screenshots
+
+## 🖼 Sample Screenshots
 
 ### The images below are provided only as a visual preview of the application's interface.  
 ### They do not represent the full functionality or the commercial release of the system.
