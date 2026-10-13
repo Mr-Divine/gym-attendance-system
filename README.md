@@ -1,118 +1,131 @@
 # Gym Attendance System
 
-A complete offline WPF-based gym attendance & access control system with licensing, device integration, and full financial/member tracking features.
+A WPF-based gym management and access control application designed to manage members, coaches, attendance, smart locker assignments, financial operations, and connected access control devices.
 
+The application features a redesigned user interface, bilingual support (Persian and English), device synchronization, and centralized device configuration.
 
-## 📌 Overview
+## Overview
 
-This system is designed to manage member attendance, access control, locker assignments, coach management, and financial tracking for gyms and fitness clubs.
+Gym Attendance System provides an integrated solution for gyms and fitness clubs, combining member management, attendance monitoring, locker management, coach administration, financial tracking, and hardware integration.
 
-All data is stored locally on SQL Server 2014, and the application requires a valid license to operate.
+The application supports offline operation for core management features, local SQL Server storage, and online license activation and verification.
 
-------------------
-## 🏗 Technology Stack
-| Layer              | Technology               |
-| ------------------ | ------------------------ |
-| UI                 | WPF (.NET)               |
-| Database           | SQL Server 2014          |
-| Reporting          | DevExpress               |
-| Device Integration | TCP communication        |
-| Licensing          | Online activation system |
+## Technology Stack
 
-------------------
-## 🚀 Key Features
+| Component | Technology |
+|---|---|
+| Desktop Application | WPF |
+| Framework | .NET Framework |
+| Database | Microsoft SQL Server 2014 |
+| Reporting | DevExpress |
+| Device Integration | TCP/IP Communication |
+| User Interface | Bilingual: Persian and English |
+| Licensing | Online License Activation and Verification |
 
-**🔐 Access & Attendance**
+## Key Features
 
-- Connects to Face ID, Fingerprint scanners, and RFID Readers via TCP
+### Access Control & Attendance
 
-- Shows live check-in / check-out activity
+- Integration with supported face recognition, fingerprint, and RFID devices.
+- Live attendance monitoring.
+- Automatic recording of member check-in and check-out events.
+- Member attendance history.
+- TCP-based communication with compatible access control hardware.
+- Dedicated daily monitoring interface for viewing current-day activity.
 
-- Automatically stores attendance logs per member
+### Member Management
 
-**🧑‍🤝‍🧑 Member Management**
+- Member registration and profile management.
+- Membership and subscription tracking.
+- Payment records and membership expiration management.
+- Automatic locker assignment during entry.
+- Automatic locker release after check-out.
+- Manual locker reservation for members and coaches.
 
-- Full member registration with profile and subscription tracking
+### Coach Management
 
-- Records membership payments and expiration dates
+- Coach registration and profile management.
+- Training program assignment.
+- Coach-to-student relationship management.
+- Coach payment tracking based on planned training sessions.
+- Locker assignment and reservation for coaches.
 
-- Auto locker assignment on entry
+### Device Management & Synchronization
 
-- Locker is automatically released after check-out
+- Improved device synchronization for more reliable synchronization operations.
+- Configuration of device IP addresses directly through the application.
+- Device type modification through the application.
+- Centralized management of supported access control devices.
+- TCP/IP-based communication with connected hardware.
 
-- Lockers can be reserved manually for members or coaches
+### User Interface & Localization
 
-**🏋️‍♂️ Coach Management**
+- Complete user interface redesign across application screens.
+- Bilingual interface supporting Persian and English.
+- Language-aware interface presentation.
+- Improved screen layouts and visual consistency.
+- Dedicated daily monitoring screen.
 
-- Coaches can be registered like members
+### Financial Management & Reporting
 
-- Assign training programs and track student lists
+- Member payment tracking.
+- Income and refund reporting.
+- Dedicated coach payment reports.
+- Member attendance and history reports.
+- Coach-to-student overview.
+- Locker usage and reservation reports.
+- Report generation using DevExpress.
 
-- Coaches receive recorded payments based on planned sessions
+### Locker Management
 
-- Coaches can also receive lockers
+- Automatic locker assignment and release.
+- Manual locker reservation.
+- Locker allocation for members and coaches.
+- Integration with the gym's access control workflow.
 
-**💰 Financial & Reports**
+### Database & Architecture
 
-- Financial reporting of total income and refunds
+- Local SQL Server database.
+- Offline operation for core management functionality.
+- TCP/IP-based device communication.
+- WPF desktop architecture.
+- Centralized management of member, attendance, locker, and financial data.
 
-- Dedicated coach payments report
+### Licensing & Activation
 
-- Full attendance history
+- License activation required before application use.
+- Online license verification.
+- License status validation.
 
-- Reports built using DevExpress
+## Supported Hardware
 
-**🗄 Storage & Architecture**
+The system is designed to integrate with compatible access control devices, including:
 
-- Offline mode
+- Face recognition terminals.
+- Fingerprint readers.
+- RFID card readers.
+- TCP/IP-enabled access control devices.
 
-- Database: SQL Server 2014
+Compatibility depends on the hardware model and its communication protocol.
 
-- UI Framework: WPF (.NET)
+## Reports
 
-- Reporting: DevExpress
+Available reporting features include:
 
-- Device Communication: TCP sockets
+- Total payments received.
+- Member attendance history.
+- Coach revenue and payment reports.
+- Coach-to-student overview.
+- Locker usage and reservation reports.
 
-**🔑 Licensing**
+## Screenshots
 
-- Application requires an active license
+Screenshots are provided as visual previews of the application's interface.
 
-- Online verification system checks and validates license status
+They demonstrate the user interface and do not necessarily represent every feature or the complete commercial release.
 
+## License
 
-## 📡 Supported Hardware
+This project is intended for commercial use. A valid license must be purchased and activated before using the application.
 
-✔ Face Recognition Terminals
-✔ Fingerprint Readers
-✔ RFID Card Readers
-(All connected via TCP)
-
-
-## 📊 Reports Included
-
-Total payments received
-
-Member attendance & history
-
-Coach revenue report
-
-Coach → students overview
-
-Locker usage & reservations
-
-
-
-## 📝 License
-
-This software is not free.
-A valid license must be purchased and activated before use.
-
-
-## 🖼 Sample Screenshots
-
-### The images below are provided only as a visual preview of the application's interface.  
-### They do not represent the full functionality or the commercial release of the system.
-
-------------------
-
+Please contact the software owner for licensing and usage terms.
